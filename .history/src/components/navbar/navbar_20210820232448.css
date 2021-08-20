@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+header {
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 16px;
+	margin-bottom: 0;
+}
+.header-container {
+	display: flex;
+	width: 80%;
+	align-items: center;
+	padding: 0 25px;
+	justify-content: space-around;
+}
+.right-menu {
+	display: flex;
+	align-items: center;
+	flex: 1;
+}
+.header-container .right-menu .logo {
+	height: 35px;
+	margin-right: 10px;
+	cursor: pointer;
+	z-index: 1;
+}
+.header-container .right-menu .logo img {
+	height: 150%;
+}
+.header-container .right-menu .logo img:hover {
+	cursor: pointer;
+}
+.left-menu {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-weight: 600;
+}
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="#">Creativo</a> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Portfolio</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Services</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
